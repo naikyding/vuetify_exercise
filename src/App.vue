@@ -34,6 +34,7 @@
     </v-app-bar>
 
     <v-main>
+      <h1 class="text-center mb-14">123</h1>
       <HelloWorld />
     </v-main>
   </v-app>
@@ -54,3 +55,9 @@ export default {
   })
 }
 </script>
+
+<style lang="scss" scoped>
+h1 {
+  color: $baseClr;
+}
+</style>
